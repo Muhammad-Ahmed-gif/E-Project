@@ -1,0 +1,43 @@
+@media (max-width:1030px){
+    .Home .home-banner-1,
+.Home .home-banner-2,
+.Home .home-banner-3,
+.Home .home-banner-4{
+    background-position: 65% center;
+    min-height: 550px;
+}
+.Home .home-banner .home-banner-text{
+    transform: translate(-80%, -50%);
+}
+}
+@media (max-width:991px){
+    .home .home-banner .home-banner-text{
+        transform: translate(-66%, -50%);
+    }
+}
+
+@media (max-width:767px){
+.Home .home-banner-1,
+.Home .home-banner-2,
+.Home .home-banner-3,
+.Home .home-banner-4{
+    background-position: 50% center;
+    min-height: 450px;
+}
+.Home .home-banner .home-banner-text{
+    text-align: center;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+}
+
+@media screen and (min-width: 768px) {
+    .testi .wrapper{
+        flex-direction: row;
+        padding: 30px 100px;
+    }
+    .testi .thumbnail{
+        width: 200px;
+        height: 200px;
+    }
+}
